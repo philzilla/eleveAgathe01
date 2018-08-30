@@ -97,5 +97,16 @@ jQuery(document).ready(function( $ ) {
 
 // custom code
 
-  
+
+});
+
+
+// changement couleurs onglets page réalisation
+$(function () {
+  $("#tabs").tabs({
+      activate: function (e, ui) {
+          ui.oldTab.find('div').removeClass('active');
+          ui.newTab.find('div').addClass('active');
+      }
+  });
 });

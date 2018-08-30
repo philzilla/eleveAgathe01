@@ -1142,3 +1142,20 @@ footer .col-footer{
         -webkit-padding-start: inherit;
     }
 }
+
+
+/* -----------------------------------------
+Page réalisation couleur des onglets
+---------------------------------------------*/
+#tab1.active a{
+    background-color: red;
+}
+#tab2.active a{
+    background-color: green;
+}
+#tab3.active a{
+    background-color: blue;
+}
+#tab4.active a{
+    background-color: blue;
+}
